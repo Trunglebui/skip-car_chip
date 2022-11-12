@@ -33,7 +33,7 @@ radio.onReceivedString(function (receivedString) {
         }
         SuperBit.RGB_Program().showColor(neopixel.colors(NeoPixelColors.Green))
         SuperBit.RGB_Program().show()
-    } else if (item.compare("G") == 0) {
+    } else if (item.compare("I") == 0) {
         SuperBit.RGB_Program().clear()
         SuperBit.RGB_Program().show()
     }
@@ -52,6 +52,3 @@ basic.showLeds(`
     `)
 angle13 = 240
 SuperBit.Servo2(SuperBit.enServo.S1, 240)
-basic.forever(function () {
-	
-})
